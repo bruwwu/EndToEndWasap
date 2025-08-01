@@ -19,7 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\E2E.cpp" />
+    <ClInclude Include="inc\CryptoHelper.h" />
+    <ClInclude Include="inc\NetworkHelper.h" />
+    <ClInclude Include="inc\Prerequisites.h" />
+    <ClInclude Include="inc\Server.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\E2E.cpp" />
+    <ClCompile Include="src\NetworkHelper.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
