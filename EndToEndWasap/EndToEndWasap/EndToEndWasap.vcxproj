@@ -19,14 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="inc\Client.h" />
     <ClInclude Include="inc\CryptoHelper.h" />
     <ClInclude Include="inc\NetworkHelper.h" />
     <ClInclude Include="inc\Prerequisites.h" />
     <ClInclude Include="inc\Server.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Client.cpp" />
     <ClCompile Include="src\E2E.cpp" />
     <ClCompile Include="src\NetworkHelper.cpp" />
+    <ClCompile Include="src\Server.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
