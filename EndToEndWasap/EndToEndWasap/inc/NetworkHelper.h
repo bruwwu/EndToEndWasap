@@ -66,8 +66,14 @@ public:
 	void
 		close(SOCKET socket);
 
-	SOCKET m_serverSocket = -1;
+	bool
+		SendAll(SOCKET s, const unsigned char* data, int len);
 
+	bool
+		ReceiveExact(SOCKET s, unsigned char* out, int len);
+
+public:
+	SOCKET m_serverSocket = -1;
 private:
 	bool m_initialized;
 };
